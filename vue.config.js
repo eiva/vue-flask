@@ -1,5 +1,5 @@
 module.exports = {
-    outputDir: 'dist',
+    outputDir: './server/content',
     assetsDir: 'static',
     // baseUrl: IS_PRODUCTION
     // ? 'http://cdn123.com'

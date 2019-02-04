@@ -1,8 +1,8 @@
-# temp
+# Empty vue + flask boilerplate
 
 ## Project setup
 ```
-npm install
+. ./init
 ```
 
 ### Compiles and hot-reloads for development

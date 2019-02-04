@@ -13,3 +13,4 @@ yarn-error.log*
 
 .ve
 __pycache__
+server/content

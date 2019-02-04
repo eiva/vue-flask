@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "terser": "^3.14.1",
     "vue": "^2.5.22"
   },
   "devDependencies": {

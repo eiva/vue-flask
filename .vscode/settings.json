@@ -7,6 +7,7 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         ".ve": true,
-        "**/__pycache__": true
+        "**/__pycache__": true,
+        "server/content": true
     }
 }

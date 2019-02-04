@@ -1,10 +1,9 @@
 from flask import Flask, render_template, jsonify
 from requests import get
 
-
 app = Flask(__name__,
-            static_folder = "./dist/static",
-            template_folder = "./dist")
+            static_folder = "./content/static",
+            template_folder = "./content")
 
 
 @app.route('/api/<region>/<name>/id')
