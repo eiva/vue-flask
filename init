@@ -1,0 +1,9 @@
+#!/bin/bash
+
+npm install
+rm -rf .ve
+virtualenv -p python3.6 .ve
+. .ve/bin/activate
+pip install -r ./requirements/base.txt
+
+echo "Run 'npm run serve' to start dev instance..."
